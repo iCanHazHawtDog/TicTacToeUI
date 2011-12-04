@@ -64,7 +64,11 @@ public class PlayGame extends JPanel{
     		
             @Override
             public void actionPerformed(ActionEvent e) {
-          	  
+            	frame.setVisible(false);
+    			BoardSameComputer matt = new BoardSameComputer();
+    			matt.addComponentsToPane(BoardSameComputer.frame.getContentPane());
+    			BoardSameComputer.frame.pack();
+    			BoardSameComputer.frame.setVisible(true);
             }
       	}));
         center.add(new JButton(new AbstractAction("Network Based") {
