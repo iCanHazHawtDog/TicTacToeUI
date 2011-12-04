@@ -1,5 +1,5 @@
 
-package edu.tictactoe.gui.resources;
+package edu.luc.tictactoe.gui.resources;
 
 import java.awt.*;
 

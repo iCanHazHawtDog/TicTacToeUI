@@ -12,7 +12,7 @@ import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import javax.swing.AbstractAction;
 
-import edu.tictactoe.gui.resources.ImagePanel;
+import edu.luc.tictactoe.gui.resources.ImagePanel;
 
 /**
  * @author matt
@@ -29,8 +29,8 @@ public class MainMenu extends JPanel {
     }
     
     public void addComponentsToPane(Container pane) {
-//    	ImagePanel panel = new ImagePanel("/home/matt/Documents/Eclipse Workspaces/Soft Eng/TicTacToeUI/Images/UIMM.png");
-//    	pane.add(panel);
+    	ImagePanel panel = new ImagePanel("/home/matt/git/TicTacToeUI/TicTacToeUI/Images/UIMM.png");
+    	pane.add(panel);
     	pane.setLayout(new GridLayout(10,1));
     	// Insert a space before the first button
     	for (int i = 1; i < 6; i++ ){
